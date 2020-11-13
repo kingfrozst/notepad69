@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="body">
+    <h1>Notepad</h1>
+    <div class="tool_bar">
+    <h2>Tools</h2>
+            
+            <select class="Fuentes" onchange="changeFont(this)">
+                <option value="Arial">Arial</option>
+                <option value="SansSerif">Sans Serif</option>
+                <option value="Helvetica"> Helvetica</option>
+                <option value="Futura">Futura</option>
+            </select>
+            <select class="Size" onchange="changeZize(this)">
+                <option value="8px">8</option>
+                <option value="10px">10</option>
+                <option value="11px">12</option>
+                <option value="12px">14</option>
+                <option value="14px">16</option>
+                <option value="16px">18</option>
+                <option value="18px">20</option>
+                <option value="22px">22</option>
+            </select>
+            
+            <button onclick="r3set()" class="resetStyles" id="reset">Reset Styles</button>
+    </div>
+    <div class="body">
+        <textarea placeholder="Write here" id="content" rows="20" cols="100"></textarea>
+    </div>
+    <button id="descargar">Descargar xd</button>
+        <script src="app.js"></script>
+</body>
+</html>

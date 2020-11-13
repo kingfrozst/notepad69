@@ -1,0 +1,104 @@
+*{
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  margin: auto;
+  padding: 0;
+  transition: all 1s;
+}
+
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.switch{
+  border-radius: .5rem;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  background: white;
+}
+
+.switch:active{
+  right: 0;
+  left: unset;
+}
+.switch span {
+  display: inline-block;
+  background: white;
+}
+
+.switch::after{
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  background: white;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 1rem;
+  transition: all 1s;
+}
+h1{
+  margin-left: 2rem;
+  margin: auto;
+  text-align: center;
+  background: var(--whiteColor);
+  color: black;
+  margin-top: 1rem;
+  padding: 1rem;
+  
+  width: 14rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.tool_bar{
+ margin: 1rem;
+ text-align: center;
+}
+.Fuentes{
+  padding: .4rem;
+  cursor: grab;
+  margin-top: .4rem;
+}
+.Size{
+  padding: .4rem;
+  cursor: grab;
+}
+
+.fa-moon {
+  font-size: 150%;
+  padding: .6rem;
+  
+}
+
+textarea{
+  margin-left: 2rem;
+  padding: 1rem;
+  width: 80rem;
+  height: 50rem;
+  overflow-y: auto;
+}
+
+.resetStyles{
+  margin-left: .6rem;
+  padding: .4rem;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+.body{
+  margin: auto;
+  text-align: center;
+}
+.reset{
+  padding: .7rem;
+  margin: auto;
+  text-align: center;
+}
